@@ -80,7 +80,9 @@ setInterval(function() {
     }
 
     var mouseParticle = getMouseParticle(mouseCoords.new.x, mouseCoords.new.y, velocity);
+    var mouseParticle2 = getMouseParticle(mouseCoords.new.x, mouseCoords.new.y, velocity);
     particles.push(mouseParticle);
+    particles.push(mouseParticle2);
 }, timeInterval);
 
 function graphicsLoop() {
