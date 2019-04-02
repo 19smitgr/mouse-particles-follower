@@ -60,7 +60,7 @@ function getMouseParticle(x, y, velocity) {
 // too code golfed for my liking
 function getRandColor() {
     var o = Math.round, r = Math.random, s = 255;
-    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ', .5)';
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ', .7)';
 }
 
 function getRandInt(min, max) {
